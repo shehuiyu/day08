@@ -21,7 +21,7 @@ class Test02:
 
     @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
     def test04(self):
-        assert 0
+        assert 1
 
 
     def test05(self):
