@@ -1,0 +1,109 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571902477209" stop="1571902477274">
+  <name>test02</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571902477209" status="failed" stop="1571902477253">
+      <name>Test02.test01</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test02.Test02 object at 0x0000018D7DCDE4A8&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    @allure.step(title="执行登录")
+    def test01(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test02.py:9: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="2704-MainThread"/>
+        <label name="host" value="DESKTOP-IMP2ROA"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571902477212" status="failed" stop="1571902477214">
+          <name>执行登录</name>
+          <title>执行登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571902477256" status="passed" stop="1571902477257">
+      <name>Test02.test02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="2704-MainThread"/>
+        <label name="host" value="DESKTOP-IMP2ROA"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571902477257" status="passed" stop="1571902477257">
+          <name>执行退出登录</name>
+          <title>执行退出登录</title>
+          <attachments>
+            <attachment source="a90cd383-7dc1-405a-b05e-fffd024c7a10-attachment.txt" title="失败原因：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571902477259" status="passed" stop="1571902477260">
+      <name>Test02.test03</name>
+      <attachments>
+        <attachment source="a5c508f3-91d5-4551-acd2-9fccc9d4bdd4-attachment.txt" title="失败原因：" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="2704-MainThread"/>
+        <label name="host" value="DESKTOP-IMP2ROA"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571902477262" status="failed" stop="1571902477271">
+      <name>Test02.test04</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test02.Test02 object at 0x0000018D7DCFFE48&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
+    def test04(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test02.py:24: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="2704-MainThread"/>
+        <label name="host" value="DESKTOP-IMP2ROA"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571902477272" status="passed" stop="1571902477274">
+      <name>Test02.test05</name>
+      <attachments>
+        <attachment source="c7e650a6-875b-406a-913c-4fb7fc141155-attachment.png" title="失败原因：" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2704-MainThread"/>
+        <label name="host" value="DESKTOP-IMP2ROA"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
